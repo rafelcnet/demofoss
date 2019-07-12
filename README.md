@@ -1,4 +1,4 @@
-﻿## Introducción 
+## Introducción 
 
 Ejemplo basico para crear una aplicacion .net core, crear una imagen en docker, y despues hacer un deployment con Kubernetes a un cluster de Raspberry PI:
 
@@ -6,7 +6,7 @@ http://myapps.rafaelc.net/post/2019/06/07/Contenedores-y-cluster-con-Raspberry-p
 
 ## Uso 
 
-El archivo Dockerfile es para crear la imagen, la sintaxis para hacerlo y para subirlo al jub de Docker es:
+El archivo Dockerfile es para crear la imagen, la sintaxis para hacerlo y para subirlo al hub de Docker es:
 
 * docker build -t [usuarioDocker]/[aplicacion] -f Dockerfile .
 
