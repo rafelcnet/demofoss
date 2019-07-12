@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: demofoss
+spec:
+  type: NodePort
+  selector:
+    app: demofoss
+  ports:
+  - port: 8030
+    targetPort: 80
+    nodePort: 31130
+    protocol: TCP

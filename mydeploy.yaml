@@ -1,0 +1,19 @@
+﻿apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: demofoss
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: demofoss
+    spec:
+      #hostNetwork: true
+      containers:
+        - image: "rafaelc/rpi-demofoss"
+          imagePullPolicy: Always
+          name: demofoss
+          ports:
+            - containerPort: 80
+              hostPort: 8030
