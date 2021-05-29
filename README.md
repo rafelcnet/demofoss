@@ -2,7 +2,7 @@
 
 Ejemplo basico para crear una aplicacion .net core, crear una imagen en docker, y despues hacer un deployment con Kubernetes a un cluster de Raspberry PI:
 
-http://myapps.rafaelc.net/post/2019/06/07/Contenedores-y-cluster-con-Raspberry-parte-1.aspx 
+http://myapps.rafaelc.net/post/2019/06/07/Contenedores-y-cluster-con-Raspberry-parte-1.aspx (ya no sirve)
 
 ## Uso 
 
